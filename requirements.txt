@@ -1,0 +1,10 @@
+websockets
+asyncio ; python_version < "3.11"  # Only needed if using Python < 3.11
+python-dotenv
+cryptography
+motor
+ecdsa
+fastapi
+uvicorn
+pydantic
+pydantic-settings
