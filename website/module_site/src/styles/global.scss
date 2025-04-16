@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+
+::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in Chrome, Safari, and newer Edge */
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
